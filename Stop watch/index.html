@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop-watch</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="display">00:00:00</h1>
+        <div class="buttons">
+            <img src="./images/reset.png" alt="reset-button" onclick="watchReset()" >
+            <img src="./images/start.png" alt="start-button" onclick="watchStart()">
+            <img src="./images/stop.png" alt="stop-button" onclick="watchStop()">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
